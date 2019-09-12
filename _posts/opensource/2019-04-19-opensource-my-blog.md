@@ -11,7 +11,7 @@ tags: [opensouce,jekyll,github,博客]
 
 源码地址: https://github.com/pony-maggie/machengyu.github.io-theme
 
-个人博客地址：http://www.machengyu.net/
+个人博客地址：http://pony-maggie.github.io/
 
 我的CSDN博客地址：https://blog.csdn.net/pony_maggie
 

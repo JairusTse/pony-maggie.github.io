@@ -10,7 +10,7 @@ tags: [jpa,spring,数据库,mybatis]
 
 不了解spring data jpa的建议先看我之前的文章
 
-[spring data jpa入门示例](http://www.machengyu.net/tech/2019/06/29/spring-data-jpa-demo.html)
+[spring data jpa入门示例](http://pony-maggie.github.io/tech/2019/06/29/spring-data-jpa-demo.html)
 
 本篇的源码地址：
 

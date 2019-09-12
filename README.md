@@ -2,7 +2,7 @@
 
 这是我的个人博客项目使用的jekyll模板。
 
-个人博客：http://www.machengyu.net/
+个人博客：http://pony-maggie.github.io/
 
 我的CSDN博客：https://blog.csdn.net/pony_maggie
 

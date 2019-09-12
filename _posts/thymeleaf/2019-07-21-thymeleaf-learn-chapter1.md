@@ -120,11 +120,11 @@ public class TestController {
 
 运行spring boot，可以看到这样的效果，
 
-![springboot thymeleaf2](http://www.machengyu.net/assets/images/2019/thymeleaf/2.jpg)
+![springboot thymeleaf2](http://pony-maggie.github.io/assets/images/2019/thymeleaf/2.jpg)
 
 前面讲到了，themeleaf可以不需要后端直接展示效果。我们把spring boot停止，然后直接用浏览器打开index.html，也可以看到缺省的效果：
 
-![springboot thymeleaf1](http://www.machengyu.net/assets/images/2019/thymeleaf/1.jpg)
+![springboot thymeleaf1](http://pony-maggie.github.io/assets/images/2019/thymeleaf/1.jpg)
 
 
 

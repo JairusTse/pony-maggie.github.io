@@ -25,13 +25,13 @@ tags: [架构,微服务,java,maven]
 
 目前主流的方案都是基于NEXUS搭建的。架构如下：
 
-![image](http://www.machengyu.net/assets/images/arch/maven1.jpg)
+![image](http://pony-maggie.github.io/assets/images/arch/maven1.jpg)
 
 我不打算写安装过程了，网上比较多大家可以自行查找。
 
 安装完成之后，界面是这样的（不同的版本界面可能会有差异）：
 
-![image](http://www.machengyu.net/assets/images/arch/maven2.jpg)
+![image](http://pony-maggie.github.io/assets/images/arch/maven2.jpg)
 
 * maven-central：这里存放从中央仓库或者第三方的下载的jar
 * maven-releases：团队内部发布版本的jar

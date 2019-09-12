@@ -17,7 +17,7 @@ favicon: favicon.ico
 
 repository: pony-maggie/machengyu.github.io
 github_url: https://github.com/pony-maggie
-url: http://www.machengyu.net
+url: http://pony-maggie.github.io
 enforce_ssl: machengyu.net
 
 baidu_analysis: 715c76ed2175d7dbb214abb446215292

@@ -88,9 +88,9 @@ C:\kafka\kafka_2.12-1.1.1
 
 前者是老版本的用法，0.8以前的kafka，消费的进度(offset)是写在zk中的，所以consumer需要知道zk的地址。后来的版本都统一由broker管理，所以就用bootstrap-server了。如下图所示：
 
-![kafka1](http://www.machengyu.net/assets/images/2019/tech/kafka1.jpg)
+![kafka1](http://pony-maggie.github.io/assets/images/2019/tech/kafka1.jpg)
 
-![kafka2](http://www.machengyu.net/assets/images/2019/tech/kafka2.jpg)
+![kafka2](http://pony-maggie.github.io/assets/images/2019/tech/kafka2.jpg)
 
 
 

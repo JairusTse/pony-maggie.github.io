@@ -16,7 +16,7 @@ long，String等，这归功于kafka的序列化和反序列化机制。
 
 ## 基本原理分析
 
-在之前的一篇文章[springboot集成kafka示例](http://www.machengyu.net/arch/2019/07/29/kafka-springboot.html)中，我使用的是kafka原生的StringSerializer序列化方式，
+在之前的一篇文章[springboot集成kafka示例](http://pony-maggie.github.io/arch/2019/07/29/kafka-springboot.html)中，我使用的是kafka原生的StringSerializer序列化方式，
 
 ```xml
 
@@ -172,7 +172,7 @@ spring.kafka.consumer.value-deserializer=com.ponymaggie.github.kafka.serializer.
 
 本地kafka和zk环境搭建可以参考我之前的一篇文章：
 
-http://www.machengyu.net/arch/2019/07/29/kafka-springboot.html
+http://pony-maggie.github.io/arch/2019/07/29/kafka-springboot.html
 
 启动springboot项目，通过日志可以看出消息的收发都是正常的。
 
