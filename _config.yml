@@ -15,10 +15,10 @@ keywords: machengyu,思无邪了吗,Spring,Spring Boot,Spring Cloud,MongoDB,pyth
 encoding: "utf-8"
 favicon: favicon.ico 
 
-repository: pony-maggie/machengyu.github.io
+repository: pony-maggie/pony-maggie.github.io
 github_url: https://github.com/pony-maggie
-url: http://pony-maggie.github.io
-enforce_ssl: machengyu.net
+url: https://pony-maggie.github.io
+enforce_ssl: pony-maggie.github.io
 
 baidu_analysis: 715c76ed2175d7dbb214abb446215292
 
