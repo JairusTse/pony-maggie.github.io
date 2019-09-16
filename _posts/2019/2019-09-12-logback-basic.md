@@ -5,8 +5,6 @@ category: tech
 tags: [logback,springboot,日志]
 ---
 
-[TOC]
-
 ##  springProfile标签中定义多个环境
 
 我们可以通过springProfile为不同的环境配置不同的日志输出规则，比如生产环境不开启console，级别为info等 下面来看看示例，
@@ -84,7 +82,7 @@ ThresholdFilter： 临界值过滤器，过滤掉低于指定临界值的日志�
 
 ```xml
 <!--常规日志-->
-    <appender name="fcbox-uniorder" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="test" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>/app/applogs/test-system.log</File>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
@@ -100,7 +98,7 @@ ThresholdFilter： 临界值过滤器，过滤掉低于指定临界值的日志�
     </appender>
 
     <!--warn和错误级别日志-->
-    <appender name="fcbox-uniorder-error"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="test-error"  class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>/app/applogs/test-system-error.log</File>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
