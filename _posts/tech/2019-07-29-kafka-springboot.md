@@ -1,7 +1,7 @@
 ---
 layout: post
-title: springboot集成kafka示例
-category: arch
+title: kafka系列之springboot集成示例
+category: tech
 tags: [Kafka,springboot,broker,bootstrap-server]
 ---
 

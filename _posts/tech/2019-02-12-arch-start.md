@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 工作中记录的笔记提炼成博客文章
-category: arch
+category: tech
 tags: [架构,微服务,java,spring cloud]
 ---
 

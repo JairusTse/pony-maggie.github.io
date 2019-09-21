@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  BFF在SoundCloud中的实践(翻译)
-category: arch
+category: tech
 tags: [架构,微服务,BFF,backends for frontends]
 ---
 

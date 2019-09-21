@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  基于maven的版本管理
-category: arch
+category: tech
 tags: [架构,微服务,java,maven]
 ---
 

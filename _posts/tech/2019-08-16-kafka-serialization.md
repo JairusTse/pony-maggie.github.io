@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kafka的序列化和反序列化
+title: kafka之序列化和反序列化
 category: tech
 tags: [kafka,序列化,反序列化,serialization]
 ---

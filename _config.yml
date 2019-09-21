@@ -92,8 +92,8 @@ navs:
     target: _self
 
   -
-    href: /arch.html
-    label: 微服务架构
+    href: /tech.html
+    label: Java技术
     target: _self
 
   -

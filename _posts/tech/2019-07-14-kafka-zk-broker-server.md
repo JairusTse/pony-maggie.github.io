@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Kafka中的broker-list,bootstrap-server以及zookeeper
-category: arch
+title: kafka系列之broker-list,bootstrap-server以及zookeeper
+category: tech
 tags: [Kafka,zookeeper,broker,bootstrap-server]
 ---
 
