@@ -22,7 +22,7 @@ tags: [kafka,版本,客户端,producer]
 
 后来1·x之后，kafka 全面启用了三位数版本规则，如果下图所示，
 
-![kafka1.png](http://note.youdao.com/yws/res/21709/WEBRESOURCE6d074349f9c5eb438c84ae8ba868fd24)
+![](http://pony-maggie.github.io/assets/images/2019/tech/09/kafka-version/1.png)
 
 新的版本规则，即 “大版本-小版本-patch版本“ 比较符合主流。
 

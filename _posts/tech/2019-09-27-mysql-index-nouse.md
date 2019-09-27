@@ -34,7 +34,7 @@ explain SELECT * from order_test t where t.`user_id` = '11223344';
 ```
 结果，
 
-![1.png](http://note.youdao.com/yws/res/21903/WEBRESOURCE53dba669b611363bfc1d872d8f628863)
+![](http://pony-maggie.github.io/assets/images/2019/tech/09/mysql-index-nouse/1.png)
 
 ```sql
 explain SELECT * from order_test t where t.`user_id` = 11223344;
@@ -42,6 +42,8 @@ explain SELECT * from order_test t where t.`user_id` = 11223344;
 结果，
 
 ![2.png](http://note.youdao.com/yws/res/21911/WEBRESOURCEd670ff74ebae7c9d2fa984714ce58923)
+
+![](http://pony-maggie.github.io/assets/images/2019/tech/09/mysql-index-nouse/2.png)
 
 很明显，第二条 sql 语句索引没有生效。
 
