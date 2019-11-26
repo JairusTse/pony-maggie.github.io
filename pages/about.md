@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 诗三百，一言以蔽之，曰思无邪
+title: 时刻保持独立思考
 titlebar: About
 subtitle: <span class="mega-octicon octicon-home"></span>&nbsp;&nbsp; 心怀坦荡
 menu: about

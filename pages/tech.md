@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 极客时间
+title: 认认真真写点技术
 titlebar: tech
 subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 技术那些事儿
 menu: tech
