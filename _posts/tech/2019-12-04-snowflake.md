@@ -23,7 +23,7 @@ https://github.com/twitter-archive/snowflake/tags
 
 ## 雪花算法原理
 
-![](http://pony-maggie.github.io/assets/images/2019/tech/12/snowflake-1.png)
+![](http://pony-maggie.github.io/assets/images/2019/tech/12/snowflake-1.jpg)
 
 
 雪花算法的原理其实非常简单，我觉得这也是该算法能广为流传的原因之一吧。
@@ -214,7 +214,7 @@ public static void main(String[] args) {
 
 很多公司会根据 snowflake 算法，根据自己的业务做二次改造。举个例子。你们公司的业务评估不需要运行69年，可能10年就够了。但是集群的节点可能会超过1024个，这种情况下，你就可以把时间戳调整成39bit，然后workerid调整为12比特。同时，workerid也可以拆分下，比如根据业务拆分或者根据机房拆分等。类似如下：
 
-![](http://pony-maggie.github.io/assets/images/2019/tech/12/snowflake-2.png)
+![](http://pony-maggie.github.io/assets/images/2019/tech/12/snowflake-2.jpg)
 
 ### workerid一般如何生成
 
