@@ -97,8 +97,8 @@ navs:
     target: _self
 
   -
-    href: /python.html
-    label: Python德塔赛
+    href: /es.html
+    label: Elasticsearch
     target: _self
 
   -

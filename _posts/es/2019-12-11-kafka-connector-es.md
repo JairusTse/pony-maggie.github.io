@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用kafka连接器迁移mysql数据到ElasticSearch
-category: tech
+category: es
 tags: [kafka,连接器,mysql,ElasticSearch]
 ---
 
