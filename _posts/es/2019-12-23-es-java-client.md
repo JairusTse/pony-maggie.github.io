@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Elasticsearch java API客户端介绍
-category: es
+category: elasticsearch
 tags: [java,API,客户端,ElasticSearch]
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: ES全文检索
-titlebar: python
+titlebar: elasticsearch
 subtitle: <span class="mega-octicon octicon-graph"></span>&nbsp;&nbsp;
      Elasticsearch 是一个分布式、可扩展、实时的搜索与数据分析引擎
-menu: es
+menu: elasticsearch
 css: ['blog-page.css']
 permalink: /python
 ---
@@ -15,7 +15,7 @@ permalink: /python
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='es'  or post.keywords contains 'es' %}
+                {% if post.category=='elasticsearch'  or post.keywords contains 'elasticsearch' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

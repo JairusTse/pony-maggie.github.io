@@ -97,8 +97,8 @@ navs:
     target: _self
 
   -
-    href: /es.html
-    label: Elasticsearch
+    href: /elasticsearch.html
+    label: Elasticsearch技术
     target: _self
 
   -
