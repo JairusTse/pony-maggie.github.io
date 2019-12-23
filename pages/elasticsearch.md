@@ -6,7 +6,7 @@ subtitle: <span class="mega-octicon octicon-graph"></span>&nbsp;&nbsp;
      Elasticsearch 是一个分布式、可扩展、实时的搜索与数据分析引擎
 menu: elasticsearch
 css: ['blog-page.css']
-permalink: /python
+permalink: /elasticsearch
 ---
 
 <div class="row">
