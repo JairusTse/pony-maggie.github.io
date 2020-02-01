@@ -201,7 +201,7 @@ PUT users
 
 重新插入数据，然后再次搜索排序，发现报错，
 
-![](http://pony-maggie.github.io/assets/images/2020/es/02/2-1.jpg)
+![](http://pony-maggie.github.io/assets/images/2020/es/02/2-1.png)
 
 意思就是`age`字段不支持排序了，需要打开doc_values才行。
 
@@ -212,14 +212,14 @@ fielddata现在用的不多，我就不演示了。
 
 简单分析下doc_values的原理。我们知道搜索的时候需要使用倒排索引，类似下图这样，
 
-![](http://pony-maggie.github.io/assets/images/2020/es/02/2-2.jpg)
+![](http://pony-maggie.github.io/assets/images/2020/es/02/2-2.png)
 
 比如说，所以我们要查找包含`brown`的文档，先在词项列表中找到 brown，然后扫描所有列，可以快速找到包含 brown 的文档。
 
 
 但是如果是要对搜索结果进行排序或者其它聚合操作，倒排索引这种方式就没真这么容易了，反而是类下面这种正排索引更方便。doc_values其实是Lucene在构建倒排索引时，会额外建立一个有序的正排索引（基于document => field value的映射列表）。
 
-![](http://pony-maggie.github.io/assets/images/2020/es/02/2-3.jpg)
+![](http://pony-maggie.github.io/assets/images/2020/es/02/2-3.png)
 
 ## 总结
 
